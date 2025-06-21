@@ -28,3 +28,10 @@ and `chown root:donald_dev` to change ownership.
 The `ls -la` output confirms the permissions (`rwxrw-r--`) and ownership (`root:donald_dev`).
 
 ![Screenshot 3](screenshots/screenshot3.png)
+
+### Screenshot 4: Package Installation with apt
+
+This screenshot shows the installation of the `htop` system monitor using `sudo apt install htop`.  
+The version was confirmed using `htop --version`, which verifies that the package was installed correctly.
+
+![Screenshot 4](screenshots/screenshot4.png)
