@@ -35,3 +35,10 @@ This screenshot shows the installation of the `htop` system monitor using `sudo 
 The version was confirmed using `htop --version`, which verifies that the package was installed correctly.
 
 ![Screenshot 4](screenshots/screenshot4.png)
+
+### Screenshot 5: Ping Test to Remote Server
+
+This screenshot shows the use of `ping -c 4 google.com` to test internet connectivity from the WSL Ubuntu environment.  
+It confirms that the virtual machine has outbound access to the internet.
+
+![Screenshot 5](screenshots/screenshot5.png)
