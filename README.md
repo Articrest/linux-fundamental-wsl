@@ -20,3 +20,11 @@ This screenshot shows the custom folder structure `/home/donald_dev/projects/dev
 The file `test.sh` already exists in the `devops` folder and will be used in the next task.
 
 ![Screenshot 2](screenshots/screenshot2.png)
+
+### Screenshot 3: File Permissions and Ownership
+
+This screenshot shows how I used `chmod 764` to set file permissions on `test.sh`,  
+and `chown root:donald_dev` to change ownership.  
+The `ls -la` output confirms the permissions (`rwxrw-r--`) and ownership (`root:donald_dev`).
+
+![Screenshot 3](screenshots/screenshot3.png)
